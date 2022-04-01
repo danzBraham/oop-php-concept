@@ -23,9 +23,9 @@ class AnimeInfo {
    }
 }
 
-$anime1 = new Anime("One Piece", "Eiichiro Oda");
-$anime2 = new Anime("Gintama", "Hideaki Sorachi");
-$anime3 = new Anime("JoJo", "Hirohiko Araki");
+$anime1 = new Anime("One Piece", "Eiichiro Oda", "Toei Animation");
+$anime2 = new Anime("Gintama", "Hideaki Sorachi", "Bandai Namco Pictures");
+$anime3 = new Anime("JoJo", "Hirohiko Araki", "David Production");
 $anime4 = new Anime("Shingeki no Kyojin", "Hajime Isayama", "Wit Studio & MAPPA");
 
 echo "Anime : " . $anime1->getLabel();
